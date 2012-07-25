@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-  
-  <title>Ruby on Rails Tutorial Sample App |<%=yield(:title)%> </title>
+  <title>Fun App</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
+<style>
+  h1 {
+  background-color: pink;
+}
+</style>
 <body>
 
 <%= yield %>
