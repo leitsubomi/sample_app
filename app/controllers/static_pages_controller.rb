@@ -1,6 +1,6 @@
 class StaticPagesController < ApplicationController
 #  layout "fun" , :only =>:home
-  layout "fun" , :except =>:home
+#  layout "fun" , :except =>:home
 #  layout "fun" 
   def home
 
@@ -10,5 +10,7 @@ class StaticPagesController < ApplicationController
   def help
   end
   def about
+  end
+  def contact
   end
 end
